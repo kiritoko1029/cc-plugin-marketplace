@@ -1,0 +1,43 @@
+{
+  "name": "jerry-tools",
+  "owner": {
+    "name": "claude plugin",
+    "email": "jerry@company.com"
+  },
+  "plugins": [
+    {
+      "name": "code",
+      "source": "./code",
+      "description": "代码优化",
+      "version": "1.0.0",
+      "author": {
+        "name": "claude plugin"
+      },
+      "skills": [
+        "./code/skills/excalidraw"
+      ]
+    },
+    {
+      "name": "docs",
+      "source": "./docs",
+      "description": "文档生成",
+      "version": "1.0.0",
+      "author": {
+        "name": "claude plugin"
+      },
+      "skills": [
+        "./docs/skills/git-commit",
+        "./code/skills/excalidraw"
+      ]
+    },
+    {
+      "name": "codex",
+      "source": "./codex",
+      "description": "codex agent",
+      "version": "1.0.0",
+      "author": {
+        "name": "claude plugin"
+      }
+    }
+  ]
+}
